@@ -7,6 +7,7 @@ def get_requients(file_path:str)->List[str]:
     This function return the list of requirements
     '''
     
+    
     requirements=[]
     with open(file_path) as file_obj:
         requirements=file_obj.readlines()
